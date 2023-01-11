@@ -17,9 +17,10 @@ public class antrianRS {
        
     }
     protected static void bpjs(){
-        int b = 001;
+       
         boolean input = true;
         while (input) {
+            int b = 1;  
             System.out.println("RSUD PASAR MINGGU");
             System.out.println("kelas BPJS ");
             System.out.println("NOMOR ANTRIAN ANDA");
@@ -43,10 +44,15 @@ public class antrianRS {
             System.out.println(" 3. untuk keluar");
             System.out.println("pencet angka untuk memilih : ");
             var input = inputUser.nextInt();
-           switch(input){
-            case 1 -> vvip();
-            case 2 -> bpjs();
-           } 
+           if (input == 1) {
+            vvip();
+           }else if(input == 2){
+            bpjs();
+           }else if(input == 3){
+            break;
+           }else{
+            System.out.println("pilihan tidak ditemukan silahkan memilih dengan benar");
+           }
         }
         
     }
