@@ -1,39 +1,12 @@
 package PROGRAM_ANTRIAN;
-
-import java.text.BreakIterator;
 import java.util.Scanner;
 
 public class antrianRS {
-    
-    protected static void vvip(){
-        int a = 1;
-        boolean input = true;
-        while(input){
-            System.out.println("NOMOR ANTRIAN ANDA");
-            System.out.println("kelas VVP");
-            a++;
-        break;
-        }
-       
-    }
-    protected static void bpjs(){
-       
-        boolean input = true;
-        while (input) {
-            int b = 1;  
-            System.out.println("RSUD PASAR MINGGU");
-            System.out.println("kelas BPJS ");
-            System.out.println("NOMOR ANTRIAN ANDA");
-            System.out.println("-------------------");
-            System.out.println("|   B " +  b + "   |");
-            System.out.println("-------------------");
-            b++;
-            break;
-        }
-       
-    }
-
     public static void main(String[] args) {
+       main();
+        
+    }
+    private static void main(){
         boolean ulang = true;
         while (ulang) {
             Scanner inputUser = new Scanner(System.in);
@@ -54,6 +27,39 @@ public class antrianRS {
             System.out.println("pilihan tidak ditemukan silahkan memilih dengan benar");
            }
         }
+    }
+    
+    protected static void vvip(){
+        boolean input = true;
         
+        while(input){
+            int urutan = 1;
+            System.out.println("RSUD PASAR MINGGU");
+            System.out.println("kelas VVIP ");
+            System.out.println("NOMOR ANTRIAN ANDA");
+            System.out.println("-------------------");
+            System.out.println("|   A " +  urutan + "   |");
+            System.out.println("-------------------");
+            urutan++;
+            break;
+        }
+        
+       
+    }
+    protected static void bpjs(){
+       
+        boolean input = true;
+        while (input) {
+            int b = 1;  
+            System.out.println("RSUD PASAR MINGGU");
+            System.out.println("kelas BPJS ");
+            System.out.println("NOMOR ANTRIAN ANDA");
+            System.out.println("-------------------");
+            System.out.println("|   B " +  b + "   |");
+            System.out.println("-------------------");
+            b++;
+            main();
+        }
+       
     }
 }
