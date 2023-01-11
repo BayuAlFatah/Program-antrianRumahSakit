@@ -1,5 +1,6 @@
 package PROGRAM_ANTRIAN;
 
+import java.text.BreakIterator;
 import java.util.Scanner;
 
 public class antrianRS {
@@ -10,14 +11,25 @@ public class antrianRS {
         while(input){
             System.out.println("NOMOR ANTRIAN ANDA");
             System.out.println("kelas VVP");
+            a++;
         break;
         }
        
     }
     protected static void bpjs(){
-        int b = 1;
-        System.out.println("NOMOR ANTRIAN ANDA");
-        System.out.println("kelas BPJS ");
+        int b = 001;
+        boolean input = true;
+        while (input) {
+            System.out.println("RSUD PASAR MINGGU");
+            System.out.println("kelas BPJS ");
+            System.out.println("NOMOR ANTRIAN ANDA");
+            System.out.println("-------------------");
+            System.out.println("|   B " +  b + "   |");
+            System.out.println("-------------------");
+            b++;
+            break;
+        }
+       
     }
 
     public static void main(String[] args) {
