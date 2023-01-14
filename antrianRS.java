@@ -38,41 +38,4 @@ public class antrianRS {
            }
         }
     }
-    private static void main(){
-       
-    }
-    
-    // protected static void vvip(){
-    //     boolean input = true;
-        
-    //     while(input){
-    //         int urutan = 1;
-    //         System.out.println("RSUD PASAR MINGGU");
-    //         System.out.println("kelas VVIP ");
-    //         System.out.println("NOMOR ANTRIAN ANDA");
-    //         System.out.println("-------------------");
-    //         System.out.println("|   A " +  urutan + "   |");
-    //         System.out.println("-------------------");
-    //         urutan++;
-    //         break;
-    //     }
-        
-       
-    // }
-    // protected static void bpjs(){
-       
-    //     boolean input = true;
-    //     while (input) {
-    //         int b = 1;  
-    //         System.out.println("RSUD PASAR MINGGU");
-    //         System.out.println("kelas BPJS ");
-    //         System.out.println("NOMOR ANTRIAN ANDA");
-    //         System.out.println("-------------------");
-    //         System.out.println("|   B " +  b + "   |");
-    //         System.out.println("-------------------");
-    //         b++;
-    //         main();
-    //     }
-       
-    // }
 }
